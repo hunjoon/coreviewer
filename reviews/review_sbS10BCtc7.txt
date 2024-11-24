@@ -1,0 +1,6 @@
+{
+  "confidence": 4,
+  "confidence_reasoning": "You are confident in your assessment, but not absolutely certain. It is unlikely, but not impossible, that you did not understand some parts of the submission or that you are unfamiliar with some pieces of related work.",
+  "strength_and_weaknesses": "Pros: \n1. The authors perform an extensive ablation study of the method which convinces me that the shown results are not statistical artifacts.\n2. The method is based on a solid theory which is motivated well in the manuscript. \n3. The derivations, although straightforward, are correct. \n\n\nCons:\n1. The idea is a delta upon the large corpus of VAEs; importantly, it heavily builds upon WAE.\n2. Even though the method shows promise in the considered datasets, I think that much more datasets are needed for the empirical evidence to be convincing.",
+  "summary_of_the_paper": "The paper is an extension of variational auto-encoders that uses a different type of metric for performing training. The suggested metric directly matches the latent and data distributions using the variational autoencoding scheme; this is based on the Gromov-Wasserstein (GW) metric between the trainable prior and given data distributions.\n\n"
+}

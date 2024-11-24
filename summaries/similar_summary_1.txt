@@ -1,0 +1,5 @@
+The paper investigates the role of activation noise in generative energy-based modeling (EBM) during training and inference, establishing it as a form of dropout and a regularization technique. The authors demonstrate that activation noise enhances classification accuracy by approximately 200% and that optimal performance occurs when the noise distribution is consistent during both training and inference. 
+
+Methodologically, the study combines theoretical proofs with empirical experiments across five datasets and various noise distributions. The authors analyze how activation noise functions similarly to dropout during training and facilitates sampling during inference, thereby influencing model performance.
+
+The main results reveal a strong interdependence between training and inference noise distributions, with the best classification accuracy achieved when both phases utilize the same noise characteristics. The findings contribute to a deeper understanding of activation noise's dual role in neural networks, linking it to regularization strategies and data augmentation, while also providing theoretical insights into its impact on performance.

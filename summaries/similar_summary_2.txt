@@ -1,0 +1,7 @@
+The paper "Mitigating Memorization of Noisy Labels via Regularization Between Representations" addresses the challenge of deep neural networks (DNNs) overfitting to noisy labels during training. The authors argue that existing robust loss functions do not adequately consider this overfitting issue. Their main contributions include a theoretical analysis of the memorization effect, demonstrating that lower-capacity models may outperform higher-capacity ones on noisy datasets. 
+
+To tackle this, they propose a novel framework that decouples DNNs into an encoder and a linear classifier, introducing a representation regularizer that aligns the distances between self-supervised features and supervised model outputs. This approach effectively restricts the function space of DNNs without altering the model architecture.
+
+Methodologically, the authors conduct both theoretical analyses and extensive numerical experiments to validate their framework. They show that their representation regularizer can be integrated with existing robust loss functions to enhance performance further.
+
+The results indicate that their proposed method significantly mitigates the memorization of noisy labels, leading to improved robustness in learning tasks with noisy datasets.
